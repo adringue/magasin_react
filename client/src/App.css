@@ -1,0 +1,167 @@
+.container {
+  width: 100%;
+}
+.whole {
+  display: inline-block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* vertical-align: center; */
+  max-width: 274px;
+  min-width: 274px;
+  max-height: 500px;
+  min-height: 300px;
+  padding-bottom: 6%;
+  /* padding-left: 3%; */
+  /* margin-left: 10px; */
+}
+.remove-btn {
+  margin-right: 0.5rem;
+}
+.modal-item-name{
+  margin-left: 30px;
+  display: block;
+}
+.modalImage{
+  min-width: 35%;
+  max-width: 35%;
+  float: left;
+  margin-left: 30px;
+}
+.modal-price {
+  display: block;
+  margin-left: 30px;
+  max-width: 40%;
+  min-width: 40%;
+  float: left;
+  /* float: left; */
+}
+.modal-price-header{
+  display: block;
+  margin-left: 30px;
+  max-width: 40%;
+  min-width: 40%;
+  float: left;
+}
+.modal-description-header{
+  display: block;
+  max-width: 40%;
+  min-width: 40%;
+  margin-left: 30px;
+  float: left;
+}
+.modal-description-body {
+  display: block;
+  min-height: 100px;
+  max-height: 300px;
+  max-width: 40%;
+  min-width: 40%;
+  overflow:auto;
+  margin-left: 30px;
+  float: left;
+}
+.modal-dialog {
+  max-width: 50%;
+  max-height: 70%;
+  text-align: left;
+}
+.ModalBody {
+  max-width: 100%;
+  position:fixed;
+  z-index: -1
+}
+  /* Occupy the 90% of the screen width
+.shopping-list {
+  display: inline-block;
+  width: 100%;
+}
+.add-btn {
+  margin-bottom: 1rem;
+}
+/* This fade css somehow it attached to the remove btn? Figure this out.. May be the transition css?? To all buttons maybe?*/
+.list-group-item {
+  display: inline-block;
+  margin-left: 4%;
+  vertical-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-left: 1%;
+  padding-left: 2%;
+  margin-top: 2%; */
+  /* vertical-align: center; */
+  /* width: 20%; */
+}
+.description {
+  display: block;
+  max-height: 100px;
+  min-width: 30%;
+  overflow:auto;
+}
+.fade {
+  display: inline-block;
+  /* width: 40%;
+  margin-left: 10%;
+  margin-right: 10%; */
+}
+.fade-enter {
+  opacity: 0.01;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+}
+/* .show-order-container { */
+  /* width: 100%; */
+  /* display: block; */
+  /* max-height: 10px; */
+  /* float: right; */
+/* } */
+.show-order-total {
+  background-Color: rgba(41, 42, 46, 0.938);
+  border-Color: rgba(0, 0, 0, 0.836);
+  color: white;
+}
+.show-order-status {
+  background-Color: rgba(41, 42, 46, 0.938);
+  border-Color: rgba(0, 0, 0, 0.836);
+  color: white;
+}
+/* .showordertable { */
+  /* display: block;
+  max-height: 400px;
+  min-width: 400px;
+  overflow:auto;
+  float: right; */
+  /* margin-right: 33%; */
+/* } */
+.modal-description-card{
+  /* display: block;
+  min-height: 100px;
+  max-height: 800px;
+  max-width: 40%;
+  min-width: 40%;
+  overflow:auto;
+  margin-left: 30px;
+  float: left; */
+  background-Color: rgba(41, 42, 46, 0.938);
+  border-Color: rgba(0, 0, 0, 0.836);
+}
+.quantityInput {
+  width: 45px;
+}
+.buyColor {
+  color: green;
+}
+.createModal {
+  max-width: 50%;
+}
+
+.modalImagetwo {
+  max-width: 100%;
+}
